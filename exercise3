@@ -1,0 +1,16 @@
+# Edit file
+git commit -am "Change in branch1"  # Commit changes
+
+git checkout main        # Go back to main
+git checkout -b branch2  # Create branch2
+# Edit same line in file
+git commit -am "Change in branch2"  # Commit changes
+
+git checkout main        # Switch to main
+git merge branch1        # Merge branch1
+
+git merge branch2        # Merge branch2 (conflict occurs)
+# Manually fix conflict in file
+
+git add .                # Stage resolved file
+git commit -m "Conflict resolved"  # Save resolution
