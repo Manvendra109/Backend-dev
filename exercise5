@@ -1,0 +1,14 @@
+git init                 # Initialize repository
+
+touch file1.txt file2.txt  # Create multiple files
+git add .                # Stage files
+git commit -m "Initial files"  # Commit files
+
+touch .gitignore         # Create gitignore file
+git add .gitignore
+git commit -m "Added gitignore"
+
+git stash                # Save unfinished work temporarily
+
+git tag v1.0             # Create version tag
+git push origin main --tags  # Push code and tags to GitHub
