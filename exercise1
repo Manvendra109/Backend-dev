@@ -1,0 +1,13 @@
+mkdir project            # Create new folder
+cd project               # Move into folder
+git init                 # Initialize Git repository
+
+touch README.md          # Create README file
+git add README.md        # Add file to staging area
+git commit -m "Initial commit"   # Save first version
+
+echo "Update" >> README.md   # Modify file
+git add README.md        # Stage changes
+git commit -m "Updated README"  # Save changes
+
+git log                  # View commit history
