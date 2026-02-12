@@ -1,0 +1,9 @@
+git clone <repo-url>     # Clone forked repository
+cd repo                  # Enter repository
+
+git checkout -b new-feature  # Create new branch
+# Make changes in files
+
+git add .                # Stage changes
+git commit -m "Update made"  # Commit changes
+git push origin new-feature   # Push branch to GitHub
