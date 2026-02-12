@@ -1,0 +1,11 @@
+git branch feature       # Create new branch
+git checkout feature     # Switch to feature branch
+
+touch feature.txt        # Create new file
+git add feature.txt      # Stage file
+git commit -m "Added feature file"  # Commit changes
+
+git checkout main        # Switch back to main branch
+git merge feature        # Merge feature into main
+
+git branch -d feature    # Delete feature branch
