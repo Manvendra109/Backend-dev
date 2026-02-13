@@ -1,0 +1,11 @@
+import createTask from "./createtask.js";
+ import readTasks from "./readTasks.js";
+import updateTask from "./updateTask.js";
+import completeTask from "./completeTask.js";
+import deleteTask from "./deleteTask.js";
+createTask("Manvendra", "Learn fs module");
+createTask("Manvendra", "Practice Node.js");
+ readTasks("Manvendra");
+ updateTask("Manvendra", 1770635826582, "Learn fs deeply if you want to");
+ completeTask("Manvendra", 1770635826591);
+ deleteTask("Manvendra", 1770635871935);
